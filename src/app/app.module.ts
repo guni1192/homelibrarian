@@ -23,9 +23,7 @@ import { ArticleComponent } from './article/article.component';
     MdModule
   ],
   providers: [
-    CategoriesService,
-    { provide: ConverterOptions,
-      useValue: {} as IConverterOptions | ConverterOptions }
+    CategoriesService
   ],
   bootstrap: [AppComponent]
 })
