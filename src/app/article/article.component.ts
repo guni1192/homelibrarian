@@ -4,7 +4,7 @@ import { IConverterOptionsChangeable } from 'ng2-md';
 @Component({
   selector: 'app-article',
   templateUrl: './article.component.html',
-  styleUrls: ['./article.component.css']
+  styleUrls: ['./article.component.css', './prism.css']
 })
 export class ArticleComponent implements OnInit {
 

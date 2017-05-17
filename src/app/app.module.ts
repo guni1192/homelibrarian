@@ -20,10 +20,10 @@ import { ArticleComponent } from './article/article.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    MdModule
+    MdModule,
   ],
   providers: [
-    CategoriesService
+    CategoriesService,
   ],
   bootstrap: [AppComponent]
 })

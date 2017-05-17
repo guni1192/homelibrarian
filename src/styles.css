@@ -1,6 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 h1 {
-  color: #369;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
+  color: #FFFFFF;
+  background-color: #F44242;
+  padding: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
+
+h2, h3, p, code, pre{
+  padding: 30px;
+}
+
+/*
+pre {
+  background-color: #E8FCFF;
+}
+*/
+
