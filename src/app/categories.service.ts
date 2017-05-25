@@ -8,7 +8,4 @@ export class CategoriesService {
   getCategories() {
     return Promise.resolve(CATEGORIES);
   }
-  getMarkdown() {
-    return Promise.resolve(CATEGORIES);
-  }
 }

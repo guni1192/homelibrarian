@@ -5,21 +5,14 @@ h1 {
   color: #FFFFFF;
   background-color: #F44242;
   padding: 30px;
+  margin: 10px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
-h2, h3, p, code, pre{
-  padding: 30px;
-}
-
-/*
 pre {
   background-color: #E8FCFF;
 }
-*/
-

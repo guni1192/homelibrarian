@@ -7,7 +7,9 @@ import { MdModule, ConverterOptions, IConverterOptions } from 'ng2-md';
 import { AppComponent } from './app.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { CategoriesService } from './categories.service';
+import { ArticleService } from './article.service';
 import { ArticleComponent } from './article/article.component';
+import { EditorComponent } from './editor/editor.component';
 // import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -15,6 +17,7 @@ import { ArticleComponent } from './article/article.component';
     AppComponent,
     CategoriesComponent,
     ArticleComponent,
+    EditorComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,6 +27,7 @@ import { ArticleComponent } from './article/article.component';
   ],
   providers: [
     CategoriesService,
+    ArticleService
   ],
   bootstrap: [AppComponent]
 })

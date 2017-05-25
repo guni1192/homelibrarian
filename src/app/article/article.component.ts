@@ -4,11 +4,12 @@ import { IConverterOptionsChangeable } from 'ng2-md';
 @Component({
   selector: 'app-article',
   templateUrl: './article.component.html',
-  styleUrls: ['./article.component.css', './prism.css']
+  styleUrls: ['./article.component.css']
 })
 export class ArticleComponent implements OnInit {
 
-  mdPath = './assets/ArchInstalled.md';
+  tmpCategory : string;
+  mdPath = './assets/sample0.md';
 
   options: IConverterOptionsChangeable = {
     disableForced4SpacesIndentedSublists: false,
