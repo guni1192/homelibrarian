@@ -10,7 +10,7 @@ import { CategoriesService } from './categories.service';
 import { ArticleService } from './article.service';
 import { ArticleComponent } from './article/article.component';
 import { EditorComponent } from './editor/editor.component';
-// import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -24,6 +24,7 @@ import { EditorComponent } from './editor/editor.component';
     FormsModule,
     HttpModule,
     MdModule,
+    AppRoutingModule,
   ],
   providers: [
     CategoriesService,

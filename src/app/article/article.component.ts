@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IConverterOptionsChangeable } from 'ng2-md';
+import 'prismjs';
 
 @Component({
   selector: 'app-article',
@@ -9,7 +10,7 @@ import { IConverterOptionsChangeable } from 'ng2-md';
 export class ArticleComponent implements OnInit {
 
   tmpCategory : string;
-  mdPath = './assets/sample0.md';
+  mdPath = './assets/sample1.md';
 
   options: IConverterOptionsChangeable = {
     disableForced4SpacesIndentedSublists: false,
