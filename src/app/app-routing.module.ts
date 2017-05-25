@@ -8,10 +8,12 @@ import { EditorComponent } from './editor/editor.component';
 
 
 const routes: Routes = [
-  { path: '',           component: AppComponent },
+  { path: '',           redirectTo: '/top' },
+  { path: 'top',        component: ArticleComponent },
   { path: 'categories', component: CategoriesComponent },
   { path: 'editor',     component: EditorComponent },
-  { path: 'article',    component: ArticleComponent }
+  { path: 'article',    component: ArticleComponent },
+  { path: 'top',        component: ArticleComponent }
 ];
 
 @NgModule({

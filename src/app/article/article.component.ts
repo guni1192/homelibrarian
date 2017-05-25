@@ -10,7 +10,7 @@ import 'prismjs';
 export class ArticleComponent implements OnInit {
 
   tmpCategory : string;
-  mdPath = './assets/sample1.md';
+  mdPath = './assets/sample0.md';
 
   options: IConverterOptionsChangeable = {
     disableForced4SpacesIndentedSublists: false,
