@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { IConverterOptionsChangeable } from 'ng2-md';
-
 @Component({
   selector: 'app-editor',
   templateUrl: './editor.component.html',
